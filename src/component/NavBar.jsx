@@ -183,7 +183,7 @@ const NavBar = () => {
                     animate={{ x: 0 }}
                     exit={{ x: "100%" }}
                     transition={{ type: "tween", duration: 0.4 }}
-                    className="fixed inset-y-0 right-0 w-84 mb-25 bg-black text-white p-6 z-50 mr-10"
+                    className="fixed inset-y-0 right-0 w-100 mb-25 bg-black text-white p-6 z-50 mr-"
                 >
                     <button onClick={() => setSubMenuOpen(null)} className="mb-4 flex items-center">
                         <FaArrowDown className='rotate-90' /> <span className='ml-2'>Back</span>
