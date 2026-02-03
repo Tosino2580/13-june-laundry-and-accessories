@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import DropdownMen from './DropdownMen.jsx'
 import DropdownWomen from './DropdownWomen.jsx'
-import { Link, useNavigate } from 'react-router-dom'
+import { Link,  } from 'react-router-dom'
 // eslint-disable-next-line no-unused-vars
 import { motion } from 'framer-motion'
 import Logo from '/src/assets/fax_logo-removebg-preview.png'
@@ -9,22 +9,22 @@ import { FaSearch, FaRegUser, FaBars, FaTimes, } from "react-icons/fa";
 import { MdOutlineShoppingBag } from "react-icons/md";
 import { FaChevronDown, FaChevronRight } from 'react-icons/fa'
 import { FaArrowDown } from 'react-icons/fa'
-import { useCart } from '../context/CartContext.jsx'
+// import { useCart } from '../context/CartContext.jsx'
 
 
 
 const NavBar = () => {
-    const { cartItems, setShowCart } = useCart();
+    // const { cartItems, setShowCart } = useCart();
     const [menuOpen, setMenuOpen] = useState(false);
     const [subMenuOpen, setSubMenuOpen] = useState(null);
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
 
 
-    const handleNavigation = (path) => {
-        setMenuOpen(false);
-        setSubMenuOpen(null);
-        navigate(path);
-    }
+    // const handleNavigation = (path) => {
+    //     setMenuOpen(false);
+    //     setSubMenuOpen(null);
+    //     navigate(path);
+    // }
 
     const menuRef = useRef(null);
     const subMenuRef = useRef(null);
@@ -51,20 +51,23 @@ const NavBar = () => {
             <button onClick={() => setMenuOpen(true)} className="md:hidden text-white text-2xl">
                 <FaBars />
             </button>
-            <div className='hidden md:flex items-center gap-2'>
-                <DropdownMen />
-                <DropdownWomen />
-                <a href="/kids" className='text-white group relative w-fit'>Kids
-                    <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-white transition-all duration-300 group-hover:w-full"></span>
-                </a>
-                <a href="/collections" className='text-white ml-4 group relative w-fit'>Collections
-                    <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-white transition-all duration-300 group-hover:w-full"></span>
-                </a>
-            </div>
             <div>
                 <Link to={'/'}><img src={Logo} alt="" className='w-18 h-18' /></Link>
             </div>
-            <div className='flex space-x-8'>
+            <div className='hidden md:flex items-center gap-2'>
+                {/* <DropdownMen />
+                <DropdownWomen /> */}
+                <a href="/jalabiya" className='text-white group relative w-fit'>Perfume & Spray
+                    <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-white transition-all duration-300 group-hover:w-full"></span>
+                </a>
+                <a href="/collections" className='text-white ml-4 group relative w-fit'>Bags
+                    <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-white transition-all duration-300 group-hover:w-full"></span>
+                </a>
+                <a href="/collections" className='text-white ml-4 group relative w-fit'>Laundry Service
+                    <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-white transition-all duration-300 group-hover:w-full"></span>
+                </a>
+            </div>
+            {/* <div className='flex space-x-8'>
                 <div className="hidden md:flex relative group">
                     <div className="flex items-center cursor-pointer">
                         <span className="group-hover:text-gray-300 transition-colors text-white font-semibold ">English</span>
@@ -105,7 +108,7 @@ const NavBar = () => {
 
                     </div>
                 </div>
-            </div>
+            </div> */}
 
             {menuOpen && (
                 <motion.div
@@ -121,31 +124,26 @@ const NavBar = () => {
                     </button>
                     <div className='flex flex-col gap-55'>
                         <ul className='space-y-4'>
-                            <li onClick={() => setSubMenuOpen('men')}
-                                className="flex justify-between items-center cursor-pointer">
-                                Men <FaChevronRight />
-                            </li>
-                            <li onClick={() => setSubMenuOpen('women')}
-                                className="flex justify-between items-center cursor-pointer">
-                                Women <FaChevronRight />
+                            <li className="flex justify-between items-center cursor-pointer">
+                                <a href="/jalabiya">Perfume & Spray</a>
                             </li>
                             <li className="flex justify-between items-center cursor-pointer">
-                                <a href="/kids">Kids</a>
+                                <a href="/agbada">Bags</a>
                             </li>
                             <li className="flex justify-between items-center cursor-pointer">
-                                <a href="/collections">Collections</a>
+                                <a href="/collections">Laundry Service</a>
                             </li>
                         </ul>
-                        <div className='flex flex-col gap-5'>
+                        {/* <div className='flex flex-col gap-5'>
                             <h2 className='text-xl font-bold'>My Account</h2>
                             <div className='flex flex-col gap-3'>
                                 <button className=' p-2 bg-yellow-600 rounded-md font-semibold transition-transform duration-300 hover:scale-105'>Log in</button>
                                 <button className='p-2 rounded-md font-semibold border border-white hover:bg-yellow-600 transition-transform duration-300 hover:scale-105 hover:border-none'>Register</button>
                             </div>
 
-                        </div>
+                        </div> */}
                     </div>
-                    <div className='flex space-x-6 mt-5'>
+                    {/* <div className='flex space-x-6 mt-5'>
                         <div className="flex relative group">
                             <div className="flex items-center cursor-pointer">
                                 <span className="group-hover:text-gray-300 transition-colors text-white font-semibold ">English</span>
@@ -172,11 +170,11 @@ const NavBar = () => {
                                 </ul>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </motion.div>
             )}
 
-            {subMenuOpen && (
+            {/* {subMenuOpen && (
                 <motion.div
                     ref={subMenuRef}
                     initial={{ x: "100%" }}
@@ -263,7 +261,7 @@ const NavBar = () => {
                         </ul>
                     )}
                 </motion.div>
-            )}
+            )} */}
 
 
         </nav>

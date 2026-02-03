@@ -61,13 +61,22 @@ const ProductCard = ({ product }) => {
     )
 }
 const ProductList = () => {
-
-
+    const ProductDatas = ProductData.slice(0, 8); // Display only first 8 products
     return (
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-5 p-4">
-            {ProductData.map((product) => (
-                <ProductCard key={product.id} product={product} />
-            ))}
+        <div className='p-4'>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-5">
+                {ProductDatas.map((product) => (
+                    <ProductCard key={product.id} product={product} />
+                ))}
+            </div>
+             <div className="flex justify-center mt-6">
+                <Link
+                    to="/all-products"
+                    className="bg-yellow-500 text-black font-semibold px-5 py-2 rounded-lg hover:bg-yellow-600 transition"
+                >
+                    Show More →
+                </Link>
+            </div>
         </div>
     )
 
