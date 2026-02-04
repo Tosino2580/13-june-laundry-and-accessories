@@ -1,38 +1,37 @@
-import casual1 from '/src/assets/images/MEN/Casual/casual-1.webp'
-import casual2 from '/src/assets/images/MEN/Casual/casual-2.webp'
-import casual3 from '/src/assets/images/MEN/Casual/casual-3.webp'
-import casual4 from '/src/assets/images/MEN/Casual/casual-4.webp'
-import casual5 from '/src/assets/images/MEN/Casual/casual-5.webp'
-import casual6 from '/src/assets/images/MEN/Casual/casual-6.webp'
-import casual7 from '/src/assets/images/MEN/Casual/casual-7.webp'
-import agbada1 from '/src/assets/images/MEN/Agbada/agbada-1.webp'
-import agbada2 from '/src/assets/images/MEN/Agbada/agbada-2.webp'
-import agbada3 from '/src/assets/images/MEN/Agbada/agbada-3.webp'
-import agbada4 from '/src/assets/images/MEN/Agbada/agbada-4.webp'
-import agbada5 from '/src/assets/images/MEN/Agbada/agbada-5.webp'
-import agbada6 from '/src/assets/images/MEN/Agbada/agbada-6.webp'
-import kaftan1 from '/src/assets/images/MEN/Kaftan&Shirts/SHIRTKAFTAN_5.webp'
-import kaftan2 from '/src/assets/images/MEN/Kaftan&Shirts/SHIRTKAFTAN_6.webp'
-import kaftan3 from '/src/assets/images/MEN/Kaftan&Shirts/SHIRTKAFTAN_7.webp'
-import kaftan4 from '/src/assets/images/MEN/Kaftan&Shirts/SHIRTKAFTAN_8.webp'
-import kaftan5 from '/src/assets/images/MEN/Kaftan&Shirts/SHIRTKAFTAN_10.webp'
-import kaftan6 from '/src/assets/images/MEN/Kaftan&Shirts/SHIRTKAFTAN_11.webp'
-import kaftan7 from '/src/assets/images/MEN/Kaftan&Shirts/SHIRTKAFTAN_12.webp'
-import kaftan8 from '/src/assets/images/MEN/Kaftan&Shirts/SHIRTKAFTAN_13.webp'
-import tshirt1 from '/src/assets/images/MEN/T-Shirt/tshirt-1.webp'
-import tshirt2 from '/src/assets/images/MEN/T-Shirt/tshirt-2.webp'
-import tshirt3 from '/src/assets/images/MEN/T-Shirt/tshirt-3.webp'
-import tshirt4 from '/src/assets/images/MEN/T-Shirt/tshirt-4.webp'
-import tshirt5 from '/src/assets/images/MEN/T-Shirt/tshirt-5.webp'
-import tshirt6 from '/src/assets/images/MEN/T-Shirt/tshirt-6.webp'
-import tshirt7 from '/src/assets/images/MEN/T-Shirt/tshirt-7.webp'
-import tshirt8 from '/src/assets/images/MEN/T-Shirt/tshirt-8.webp'
-import croptop1 from '/src/assets/images/WOMEN/Crop-top/crop-top1.webp'
-import croptop2 from '/src/assets/images/WOMEN/Crop-top/crop-top2.webp'
-import croptop3 from '/src/assets/images/WOMEN/Crop-top/crop-top3.webp'
-import croptop4 from '/src/assets/images/WOMEN/Crop-top/crop-top4.webp'
-import croptop5 from '/src/assets/images/WOMEN/Crop-top/crop-top7.webp'
-import croptop6 from '/src/assets/images/WOMEN/Crop-top/crop-top8.webp'
+import casual1 from '/src/assets/images/Perfume/perfume15.jpeg'
+import casual2 from '/src/assets/images/Perfume/perfume11.jpeg'
+import casual3 from '/src/assets/images/Perfume/perfume23.jpeg'
+import casual4 from '/src/assets/images/Perfume/perfume18.jpeg'
+import casual5 from '/src/assets/images/Perfume/perfume25.jpeg'
+import casual6 from '/src/assets/images/Perfume/perfume2.jpeg'
+import agbada7 from '/src/assets/images/Perfume/perfume13.jpeg'
+import agbada8 from '/src/assets/images/Perfume/perfume31.jpeg'
+import agbada9 from '/src/assets/images/Perfume/perfume28.jpeg'
+// import agbada4 from '/src/assets/images/Perfume/perfume15.jpeg'
+// import agbada5 from '/src/assets/images/Perfume/perfume15.jpeg'
+// import agbada6 from '/src/assets/images/Perfume/perfume15.jpeg'
+// import kaftan1 from '/src/assets/images/Perfume/perfume16.jpeg'
+// import kaftan2 from '/src/assets/images/Perfume/perfume16.jpeg'
+// import kaftan3 from '/src/assets/images/MEN/Kaftan&Shirts/SHIRTKAFTAN_7.webp'
+// import kaftan4 from '/src/assets/images/MEN/Kaftan&Shirts/SHIRTKAFTAN_8.webp'
+import kaftan1 from '/src/assets/images/Bags/bags15.jpeg'
+import kaftan2 from '/src/assets/images/Bags/bags10.jpeg'
+import kaftan3 from '/src/assets/images/Bags/bags19.jpeg'
+import kaftan4 from '/src/assets/images/Bags/bags6.jpeg'
+import tshirt5 from '/src/assets/images/Bags/bags20.jpeg'
+import tshirt6 from '/src/assets/images/Bags/bags13.jpeg'
+import tshirt7 from '/src/assets/images/Bags/bags22.jpeg'
+import tshirt8 from '/src/assets/images/Bags/bags7.jpeg'
+import tshirt9 from '/src/assets/images/Bags/bags4.jpeg'
+// import tshirt6 from '/src/assets/images/Bags/bags15.jpeg'
+// import tshirt7 from '/src/assets/images/Bags/bags15.jpeg'
+// import tshirt8 from '/src/assets/images/Bags/bags15.jpeg'
+// import croptop1 from '/src/assets/images/Bags/bags14.jpeg'
+// import croptop2 from '/src/assets/images/Bags/bags14.jpeg'
+// import croptop3 from '/src/assets/images/Bags/bags14.jpeg'
+// import croptop4 from '/src/assets/images/Bags/bags14.jpeg'
+// import croptop5 from '/src/assets/images/WOMEN/Crop-top/crop-top7.webp'
+// import croptop6 from '/src/assets/images/WOMEN/Crop-top/crop-top8.webp'
 import croptop7 from '/src/assets/images/WOMEN/Crop-top/crop-top9.webp'
 import croptop8 from '/src/assets/images/WOMEN/Crop-top/crop-top10.webp'
 import abaya1 from '/src/assets/images/WOMEN/Abaya/abaya-3.webp'
@@ -46,84 +45,76 @@ import abaya8 from '/src/assets/images/WOMEN/Abaya/abaya-10.webp'
 
 export const ProductData = [
     {
-        id: "Pocket-art-shirt",
-        name: "Pocket Art Shirt x Baggy Pant",
-        price: 300000,
-        oldPrice: 450000,
+        id: "keyali-perf",
+        name: "Keyali",
+        price: 12000,
        inStock: 8,
-       sizes: ["S", "M", "L", "XL", "XXL", "3XS"],
+       sizes: ["50ml", "100ml"],
         image: casual1,
         hoverImage: casual1,
     },
     {
-        id: "Stripe-linen",
-        name: "Stripe Linen Safari Shirt & Baggy Pant",
-        price: 240000,
-        oldPrice: 320000,
+        id: "choco-musk-perf",
+        name: "Choco musk",
+        price: 6000,
        inStock: 4,
-       sizes: ["S", "M", "L", "XL", "XXL", "3XS"],
+       sizes: ["50ml", "100ml"],
         image: casual2,
+        hoverImage: casual2,
+    },
+    {
+        id: "smart",
+        name: "Smart 359",
+        price: 8500,
+       inStock: 3,
+       sizes: ["100ml"],
+        image: casual3,
         hoverImage: casual3,
     },
     {
-        id: "Button-up-linen",
-        name: "Button-Up Linen Escape",
-        price: 240000,
-        oldPrice: 300000,
-       inStock: 3,
-       sizes: ["S", "M", "L", "XL", "XXL", "3XS"],
+        id: "La-africa",
+        name: "La Africa Drummer",
+        price: 55000,
+       inStock: 7,
+       sizes: ["100ml"],
         image: casual4,
+        hoverImage: casual4,
+    },
+    {
+        id: "YARA",
+        name: "Yara",
+        price: 8000,
+        inStock: 4,
+        sizes: ["50ml"],
+        image: casual5,
         hoverImage: casual5,
     },
     {
-        id: "Blue-painted-linen",
-        name: "Blue Hand-Painted Abstract Guitar Man Linen Shirt",
-        price: 300000,
-        oldPrice: 350000,
+        id: "matelot",
+        name: "Matelot",
+        price: 18000,
        inStock: 7,
-       sizes: ["S", "M", "L", "XL", "XXL", "3XS"],
+       sizes: ["50ml"],
         image: casual6,
-        hoverImage: casual7,
+        hoverImage: casual6,
     },
     {
-        id: "The-historic-ozo-agbada",
-        name: "The Historic Ozo x NFL Agbada",
-        price: 1273800,
-        oldPrice: 1543000,
-        inStock: 4,
-        sizes: ["S", "M", "L", "XL", "XXL", "3XS"],
-        image: agbada1,
-        hoverImage: agbada2,
-    },
-    {
-        id: "macallan-agbada",
-        name: "Macallan Reserve Agbada",
-        price: 885000,
-        oldPrice: 1000000,
-       inStock: 7,
-       sizes: ["S", "M", "L", "XL", "XXL", "3XS"],
-        image: agbada3,
-        hoverImage: agbada4,
-    },
-    {
-        id: "Onìńówọ & Olori",
-        name: "Onìńówọ & Olori Patched Aso-Oke Agbada",
-        price: 3315000,
-        oldPrice: 3450000,
+        id: "boss",
+        name: "Boss",
+        price: 3000,
        inStock: 3,
-       sizes: ["S", "M", "L", "XL", "XXL", "3XS"],
-        image: agbada5,
-        hoverImage: agbada6,
+       sizes: ["50ml", "100ml"],
+        image: agbada7,
+        hoverImage: agbada7,
     },
     {
-        id: "Hand-painted-kaftan",
-        name: "Hand-Painted Black Kaftan and Aso Oke Pant",
-        price: 345000,
-        oldPrice: 450000,
+        id: "ophilia",
+        name: "Ophilia",
+        price: 6000,
        inStock: 5,
-       sizes: ["S", "M", "L", "XL", "XXL", "3XS"],
-        image: kaftan1,
-        hoverImage: kaftan2,
+       sizes: ["25ml"],
+        image: agbada8,
+        hoverImage: agbada8,
     },
     {
         id: "line-art-kaftan-pant",
@@ -132,88 +123,80 @@ export const ProductData = [
         oldPrice: 450000,
        inStock: 4,
        sizes: ["S", "M", "L", "XL", "XXL", "3XS"],
+        image: agbada9,
+        hoverImage: agbada9,
+    },
+    {
+        id: "Hand-bag",
+        name: "",
+        price: 30000,
+       inStock: 4,
+       sizes: [],
+        image: kaftan1,
+        hoverImage: kaftan1,
+    },
+    {
+        id: "Hand-bag",
+        name: "",
+        price: 50000,
+       inStock: 6,
+       sizes: [],
+        image: kaftan2,
+        hoverImage: kaftan2,
+    },
+    {
+        id: "Hand-bag",
+        name: "",
+        price: 40000,
+       inStock: 4,
+       sizes: [],
         image: kaftan3,
+        hoverImage: kaftan3,
+    },
+    {
+        id: "Hand-bag",
+        name: "",
+        price: 45000,
+       inStock: 5,
+       sizes: [],
+        image: kaftan4,
         hoverImage: kaftan4,
     },
     {
-        id: "Hand-aso-oke-kaftan",
-        name: "Hand-Painted Kaftan and Aso Oke Pant Set",
-        price: 345800,
-        oldPrice: 450000,
-       inStock: 6,
-       sizes: ["S", "M", "L", "XL", "XXL", "3XS"],
-        image: kaftan5,
-        hoverImage: kaftan6,
-    },
-    {
-        id: "hand-painted-kaftan-aso-oke-pant",
-        name: "Hand-Painted Kaftan and Aso Oke Pant Set",
-        price: 345800,
-        oldPrice: 450000,
-       inStock: 6,
-       sizes: ["S", "M", "L", "XL", "XXL", "3XS"],
-        image: kaftan7,
-        hoverImage: kaftan8,
-    },
-    {
-        id: "Relaxed-fit-T-Shirt-fela",
-        name: "Relaxed fit T-shirt Ft Hand Painted Fela Art",
-        price: 150000,
-        oldPrice: 250000,
-       inStock: 9,
-       sizes: ["S", "M", "L", "XL", "XXL", "3XS"],
-        image: tshirt1,
-        hoverImage: tshirt2,
-    },
-    {
-        id: "Relaxed-fit-T-Shirt",
-        name: "Relaxed fit T-shirt Ft Hand Painted Arts",
-        price: 150000,
-        oldPrice: 250000,
-       inStock: 9,
-       sizes: ["S", "M", "L", "XL", "XXL", "3XS"],
-        image: tshirt3,
-        hoverImage: tshirt4,
-    },
-    {
-        id: "Relaxed-fit-igbo-man-T-Shirt",
-        name: "Relaxed fit T-shirt Ft Hand Painted Igbo man art",
-        price: 150000,
-        oldPrice: 250000,
-       inStock: 12,
-       sizes: ["S", "M", "L", "XL", "XXL", "3XS"],
+        id: "Hand-bag",
+        name: "",
+        price: 40000,
+       inStock: 3,
+       sizes: [],
         image: tshirt5,
+        hoverImage: tshirt5,
+    },
+    {
+        id: "Hand-bag",
+        name: "",
+        price: 50000,
+       inStock: 10,
+       sizes: [],
+        image: tshirt6,
         hoverImage: tshirt6,
     },
     {
-        id: "Relaxed-fit-red-T-Shirt",
-        name: "Relaxed fit Red T-shirt Ft Hand Painted Basquit inspired Art",
-        price: 150000,
-        oldPrice: 250000,
-       inStock: 10,
-       sizes: ["S", "M", "L", "XL", "XXL", "3XS"],
-        image: tshirt7,
-        hoverImage: tshirt8,
-    },
-    {
-        id: "Takunsi-crop-top",
-        name: "Takunsi Aso Oke Cargo Pant and Crop Top",
-        price: 345000,
-        oldPrice: 450000,
+        id: "Hand-bag",
+        name: "",
+        price: 45000,
        inStock: 8,
-       sizes: ["S", "M", "L", "XL", "XXL", "3XS"],
-        image: croptop1,
-        hoverImage: croptop2,
+       sizes: [],
+        image: tshirt7,
+        hoverImage: tshirt7,
     },
     {
-        id: "Bishop-collar-shirt",
-        name: "Bishop Collar Shirt x High Waist Pant",
-        price: 397500,
-        oldPrice: 500000,
+        id: "Hand-bag",
+        name: "",
+        price: 45000,
        inStock: 7,
-       sizes: ["S", "M", "L", "XL", "XXL", "3XS"],
-        image: croptop3,
-        hoverImage: croptop4,
+       sizes: [],
+        image: tshirt8,
+        hoverImage: tshirt8,
     },
     {
         id: "Takunsi-aso-oke-crop-top",
@@ -222,8 +205,8 @@ export const ProductData = [
         oldPrice: 450000,
        inStock: 9,
        sizes: ["S", "M", "L", "XL", "XXL", "3XS"],
-        image: croptop5,
-        hoverImage: croptop6,
+        image: tshirt9,
+        hoverImage: tshirt9,
     },
     {
         id: "Hand-painted-crop-top",

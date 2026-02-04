@@ -3,11 +3,43 @@ import { useCart } from '../context/CartContext';
 import { FaTrashAlt } from 'react-icons/fa';
 
 const CartDrawer = () => {
-  const { cartItems, showCart, setShowCart, removeFromCart } = useCart();
+  const { cartItems, showCart, setShowCart, clearCart, removeFromCart } = useCart();
 
   const subtotal = cartItems.reduce((total, item) => total + item.price * item.quantity, 0);
 
   const cartRef = useRef(null);
+
+  const phoneNumber = "2347042584760";
+
+  const handleCheckout = () => {
+  if (cartItems.length === 0) return;
+
+  const itemsList = cartItems
+    .map(
+      (item, index) =>
+        `${index + 1}. ${item.name} — Size: ${item.selectedSize}, Qty: ${item.quantity}, Total: ₦${(
+          item.price * item.quantity
+        ).toLocaleString("en-NG")}`
+    )
+    .join("\n");
+
+  const message = `Hello, I want to place an order. Here are the items:\n\n${itemsList}\n\nSubtotal: ₦${subtotal.toLocaleString(
+    "en-NG"
+  )}\n\nPlease confirm availability.`;
+
+  const encodedMessage = encodeURIComponent(message);
+  const url = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+
+  // Open WhatsApp
+  window.open(url, "_blank");
+
+  // Auto-clear cart
+  clearCart();
+
+  // Close drawer (optional)
+  setShowCart(false);
+};
+
 
   useEffect(() => {
       const handleClickOutside = (event) => {
@@ -62,7 +94,7 @@ const CartDrawer = () => {
         {/* Footer */}
         <div className="mt-4">
           <p className="text-lg font-semibold">Subtotal: ₦{subtotal.toLocaleString('en-NG')}</p>
-          <button className="w-full bg-yellow-500 text-black py-3 mt-4 font-bold rounded-lg">Checkout</button>
+          <button onClick={handleCheckout} className="w-full bg-yellow-500 text-black py-3 mt-4 font-bold rounded-lg">Checkout</button>
         </div>
       </div>
     </div>

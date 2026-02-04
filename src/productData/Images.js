@@ -1,17 +1,17 @@
-import image1 from "/src/assets/images/crop_top_2.webp"
-import image2 from "/src/assets/images/agbada_2.webp"
-import image3 from "/src/assets/images/Jalabiya.webp"
-import image4 from "/src/assets/images/tshirt.jpg"
-import image5 from "/src/assets/images/pants.jpg"
-import image6 from "/src/assets/images/abaya.webp"
-import image7 from "/src/assets/images/kaftan.webp"
+import image1 from "/src/assets/images/Perfume/perfume13.jpeg"
+import image2 from "/src/assets/images/Perfume/perfume4.jpeg"
+import image3 from "/src/assets/images/Bags/bags5.jpeg"
+import image4 from "/src/assets/images/Perfume/perfume22.jpeg"
+import image5 from "/src/assets/images/Perfume/perfume12.jpeg"
+import image6 from "/src/assets/images/Bags/bags18.jpeg"
+import image7 from "/src/assets/images/Bags/bags17.jpeg"
 
 export const images = [
-    { src: image1, link: "/crop-tops", title: "Crop Tops" },
-    { src: image2, link: "/agbada", title: "Agbada" },
-    { src: image3, link: "/jalabiya", title: "Jalabiya" },
-    { src: image4, link: "/shirts", title: "Shirts" },
-    { src: image5, link: "/trousers", title: "Trousers" },
-    { src: image6, link: "/abaya", title: "Abaya" },
-    { src: image7, link: "/kaftan", title: "Kaftan" }
+    { src: image1, link: "/jalabiya", title: "BOSS" },
+    { src: image2, link: "/jalabiya", title: "RIGGS" },
+    { src: image3, link: "/agbada", title: "" },
+    { src: image4, link: "/jalabiya", title: "ASAD" },
+    { src: image5, link: "/jalabiya", title: "SAUVAGE" },
+    { src: image6, link: "/agbada", title: "" },
+    { src: image7, link: "/agbada", title: "" }
 ];

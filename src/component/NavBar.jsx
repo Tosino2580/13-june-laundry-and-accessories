@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import DropdownMen from './DropdownMen.jsx'
 import DropdownWomen from './DropdownWomen.jsx'
-import { Link,  } from 'react-router-dom'
+import { Link, } from 'react-router-dom'
 // eslint-disable-next-line no-unused-vars
 import { motion } from 'framer-motion'
 import Logo from '/src/assets/fax_logo-removebg-preview.png'
@@ -9,12 +9,12 @@ import { FaSearch, FaRegUser, FaBars, FaTimes, } from "react-icons/fa";
 import { MdOutlineShoppingBag } from "react-icons/md";
 import { FaChevronDown, FaChevronRight } from 'react-icons/fa'
 import { FaArrowDown } from 'react-icons/fa'
-// import { useCart } from '../context/CartContext.jsx'
+import { useCart } from '../context/CartContext.jsx'
 
 
 
 const NavBar = () => {
-    // const { cartItems, setShowCart } = useCart();
+    const { cartItems, setShowCart } = useCart();
     const [menuOpen, setMenuOpen] = useState(false);
     const [subMenuOpen, setSubMenuOpen] = useState(null);
     // const navigate = useNavigate();
@@ -54,18 +54,34 @@ const NavBar = () => {
             <div>
                 <Link to={'/'}><img src={Logo} alt="" className='w-18 h-18' /></Link>
             </div>
-            <div className='hidden md:flex items-center gap-2'>
-                {/* <DropdownMen />
+            <div className='flex gap-5'>
+                <div className='hidden md:flex items-center gap-2'>
+                    {/* <DropdownMen />
                 <DropdownWomen /> */}
-                <a href="/jalabiya" className='text-white group relative w-fit'>Perfume & Spray
-                    <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-white transition-all duration-300 group-hover:w-full"></span>
-                </a>
-                <a href="/collections" className='text-white ml-4 group relative w-fit'>Bags
-                    <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-white transition-all duration-300 group-hover:w-full"></span>
-                </a>
-                <a href="/collections" className='text-white ml-4 group relative w-fit'>Laundry Service
-                    <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-white transition-all duration-300 group-hover:w-full"></span>
-                </a>
+                    <a href="/jalabiya" className='text-white group relative w-fit'>Perfume & Spray
+                        <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-white transition-all duration-300 group-hover:w-full"></span>
+                    </a>
+                    <a href="/agbada" className='text-white ml-4 group relative w-fit'>Bags
+                        <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-white transition-all duration-300 group-hover:w-full"></span>
+                    </a>
+                    <a href="/collections" className='text-white ml-4 group relative w-fit'>Laundry Service
+                        <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-white transition-all duration-300 group-hover:w-full"></span>
+                    </a>
+                </div>
+                <div className='flex items-center   space-x-8'>
+                    {/* <FaSearch className='text-white text-xl' />
+                    <FaRegUser className='hidden md:flex text-white text-xl' /> */}
+                    <div className="relative cursor-pointer" onClick={() => setShowCart(true)}>
+                        <MdOutlineShoppingBag className="text-white text-xl" />
+                        {cartItems.length > 0 && (
+                            <span className="absolute -top-2 -right-2 bg-yellow-500 text-black text-xs font-bold w-5 h-5 flex items-center justify-center rounded-full">
+                                {cartItems.length}
+                            </span>
+                        )}
+
+
+                    </div>
+                </div>
             </div>
             {/* <div className='flex space-x-8'>
                 <div className="hidden md:flex relative group">

@@ -11,6 +11,11 @@ export const CartProvider = ({ children }) => {
   const toggleCartDrawer = () => {
     setShowCart(prev => !prev);
   };
+  
+  const clearCart = () => {
+  setCartItems([]);
+};
+
 
   const removeFromCart = (index) => {
     setCartItems((prevItems) => prevItems.filter((_, i) => i !== index));
@@ -56,6 +61,7 @@ export const CartProvider = ({ children }) => {
         showCart,
         removeFromCart,
         setShowCart,
+        clearCart,
         toggleCartDrawer,
       }}
     >

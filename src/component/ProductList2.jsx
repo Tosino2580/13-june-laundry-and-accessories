@@ -60,8 +60,8 @@ const ProductCard = ({ product }) => {
         </div>
     )
 }
-const ProductList = () => {
-    const ProductDatas = ProductData.slice(0, 8); // Display only first 8 products
+const ProductList2 = () => {
+    const ProductDatas = ProductData.slice(9, 17); // Display only first 8 products
     return (
         <div className='p-4'>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-5">
@@ -82,4 +82,4 @@ const ProductList = () => {
 
 }
 
-export default ProductList
+export default ProductList2

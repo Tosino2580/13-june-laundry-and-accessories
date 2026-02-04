@@ -134,9 +134,7 @@ function ProductDetails() {
           {/* Price */}
           <div className="text-2xl font-bold text-yellow-400 font-[cinzel]">
             ₦{product.price.toLocaleString('en-NG')}
-            <span className="line-through ml-3 text-gray-400 text-lg">
-              ₦{product.oldPrice.toLocaleString('en-NG')}
-            </span>
+            
           </div>
 
           {/* Size selection */}
