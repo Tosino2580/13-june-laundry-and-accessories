@@ -58,13 +58,13 @@ const NavBar = () => {
                 <div className='hidden md:flex items-center gap-2'>
                     {/* <DropdownMen />
                 <DropdownWomen /> */}
-                    <a href="/jalabiya" className='text-white group relative w-fit'>Perfume & Spray
+                    <a href="/perfume&spray" className='text-white group relative w-fit'>Perfume & Spray
                         <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-white transition-all duration-300 group-hover:w-full"></span>
                     </a>
-                    <a href="/agbada" className='text-white ml-4 group relative w-fit'>Bags
+                    <a href="/bags" className='text-white ml-4 group relative w-fit'>Bags
                         <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-white transition-all duration-300 group-hover:w-full"></span>
                     </a>
-                    <a href="/collections" className='text-white ml-4 group relative w-fit'>Laundry Service
+                    <a href="/laundry" className='text-white ml-4 group relative w-fit'>Laundry Service
                         <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-white transition-all duration-300 group-hover:w-full"></span>
                     </a>
                 </div>

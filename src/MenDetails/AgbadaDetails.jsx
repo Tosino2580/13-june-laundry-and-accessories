@@ -10,7 +10,7 @@ function AgbadaDetails() {
   const product = agbadaDatas.find(item => item.id === id);
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  const [selectedSize, setSelectedSize] = useState('');
+  const [selectedSize] = useState('');
   const [quantity, setQuantity] = useState(1);
   const scrollRef = useRef(null);
   const { addToCart, setShowCart } = useCart();
@@ -68,7 +68,7 @@ function AgbadaDetails() {
       <div className='flex items-center justify-center gap-2 md:gap-5 mt-23'>
               <Link to={'/'} className='text-sm md:text-lg text-white'>Home</Link>
               <FaChevronRight className='text-white w-2' />
-              <Link to={'/agbada'} className='text-white text-sm md:text-lg'>Agbada</Link>
+              <Link to={'/agbada'} className='text-white text-sm md:text-lg'>Bags</Link>
               <FaChevronRight className='text-white w-2' />
               <span className='text-sm'>{product.name}</span>
             </div>
@@ -142,17 +142,17 @@ function AgbadaDetails() {
           <div className="text-2xl font-bold text-yellow-400 font-[cinzel]">
             ₦{product.price.toLocaleString('en-NG')}
             <span className="line-through ml-3 text-gray-400 text-lg">
-              ₦{product.oldPrice.toLocaleString('en-NG')}
+              {/* ₦{product.oldPrice.toLocaleString('en-NG')} */}
             </span>
           </div>
 
           {/* Size selection */}
           <div>
-            <p className="mb-2 font-semibold">
+            {/* <p className="mb-2 font-semibold">
               Select a Size: <span className="text-yellow-400">{selectedSize}</span>
-            </p>
+            </p> */}
             <div className="flex flex-wrap gap-2">
-              {product.sizes.map(size => (
+              {/* {product.sizes.map(size => (
                 <button
                   key={size}
                   onClick={() => setSelectedSize(size)}
@@ -163,7 +163,7 @@ function AgbadaDetails() {
                 >
                   {size}
                 </button>
-              ))}
+              ))} */}
             </div>
           </div>
 
