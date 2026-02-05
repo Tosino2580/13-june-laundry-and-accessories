@@ -71,7 +71,7 @@ const ProductList2 = () => {
             </div>
              <div className="flex justify-center mt-6">
                 <Link
-                    to="/all-products"
+                    to="/bags"
                     className="bg-yellow-500 text-black font-semibold px-5 py-2 rounded-lg hover:bg-yellow-600 transition"
                 >
                     Show More →

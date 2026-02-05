@@ -32,12 +32,12 @@ function App() {
           <CartDrawer />
           <Routes>
             <Route path='/' element={<Home />} />
-            <Route path='/collections' element={<Collections />} />
+            <Route path='/laundry' element={<Collections />} />
             <Route path='/kids' element={<Kids />} />
             <Route path='/products' element={<ProductList/>} />
-            <Route path='/agbada' element={<Agbada />} />
+            <Route path='/bags' element={<Agbada />} />
             <Route path='/kafans-shirts' element={<Kaftan />} />
-            <Route path='/jalabiya' element={<Jalabiya />} />
+            <Route path='/perfume&spray' element={<Jalabiya />} />
             <Route path='/jalabiya/:id' element={<JalabiyaDetails/>} />
             <Route path='/agbada/:id' element={<AgbadaDetails/>} />
             <Route path='/kafans-shirts/:id' element={<KaftanDetails/>} />
