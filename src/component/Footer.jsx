@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaChevronDown } from "react-icons/fa";
-import { FaFacebookF, FaPinterestP, FaInstagram, FaWhatsapp, FaTwitter } from "react-icons/fa";
+import { FaFacebookF, FaPinterestP, FaInstagram, FaWhatsapp, FaTwitter, FaTiktok } from "react-icons/fa";
 
 
 const Footer = () => {
@@ -89,11 +89,11 @@ const Footer = () => {
                                 } md:hidden`} />
                     </div>
                     <div className={`md:flex gap-3 ${showFollowUs ? "flex" : "hidden"}`}>
-                        <Link to={'/'} className="  p-4 rounded-full bg-white/80 text-black transition-colors duration-[0.5s] hover:bg-yellow-500 hover:text-white"><FaPinterestP /></Link>
-                        <Link to={'/'} className=" p-4 rounded-full bg-white/80 text-black transition-colors duration-[0.5s] hover:bg-yellow-500 hover:text-white"><FaFacebookF /></Link>
-                        <Link to={'/'} className=" p-4 rounded-full bg-white/80 text-black transition-colors duration-[0.5s] hover:bg-yellow-500 hover:text-white"><FaInstagram /></Link>
-                        <Link to={'/'} className=" p-4 rounded-full bg-white/80 text-black transition-colors duration-[0.5s] hover:bg-yellow-500 hover:text-white"><FaTwitter /></Link>
-                        <Link to={'/'} className=" p-4 rounded-full bg-white/80 text-black transition-colors duration-[0.5s] hover:bg-yellow-500 hover:text-white"><FaWhatsapp /></Link>
+                        {/* <Link to={'/'} className="  p-4 rounded-full bg-white/80 text-black transition-colors duration-[0.5s] hover:bg-yellow-500 hover:text-white"><FaPinterestP /></Link> */}
+                        <Link to={'https://www.tiktok.com/@dunni4260?_r=1&_t=ZS-93fFOTK3Vy9'} className=" p-4 rounded-full bg-white/80 text-black transition-colors duration-[0.5s] hover:bg-yellow-500 hover:text-white"><FaTiktok /></Link>
+                        <Link to={'https://www.instagram.com/13juneventure?igsh=eHdiZHprcjdyNXNx&utm_source=qr'} className=" p-4 rounded-full bg-white/80 text-black transition-colors duration-[0.5s] hover:bg-yellow-500 hover:text-white"><FaInstagram /></Link>
+                        {/* <Link to={'/'} className=" p-4 rounded-full bg-white/80 text-black transition-colors duration-[0.5s] hover:bg-yellow-500 hover:text-white"><FaTwitter /></Link> */}
+                        <Link to={'https://wa.me/message/2HOUB5LR7YCLH1'} className=" p-4 rounded-full bg-white/80 text-black transition-colors duration-[0.5s] hover:bg-yellow-500 hover:text-white"><FaWhatsapp /></Link>
                     </div>
                 </div>
             </div>
