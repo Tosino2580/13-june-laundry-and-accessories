@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaChevronDown } from "react-icons/fa";
 import { FaFacebookF, FaPinterestP, FaInstagram, FaWhatsapp, FaTwitter, FaTiktok } from "react-icons/fa";
+import NewsletterCTA from "./Newsletter";
 
 
 const Footer = () => {
@@ -17,11 +18,7 @@ const Footer = () => {
                     <p className="w-4/5">
                         Sign up to get exclusive deals and discounts straight to your inbox!
                     </p>
-                    <input
-                        type="email"
-                        placeholder="Enter your email"
-                        className="bg-white py-2 px-5 w-full text-black text-lg md:w-80 rounded-sm"
-                    />
+                    <NewsletterCTA/>
                 </div>
 
                 <div className="mt-6 md:mt-0">

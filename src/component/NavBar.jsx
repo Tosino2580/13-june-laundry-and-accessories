@@ -4,7 +4,7 @@ import DropdownWomen from './DropdownWomen.jsx'
 import { Link, } from 'react-router-dom'
 // eslint-disable-next-line no-unused-vars
 import { motion } from 'framer-motion'
-import Logo from '/src/assets/fax_logo-removebg-preview.png'
+import Logo from '/src/assets/logo.jpeg'
 import { FaSearch, FaRegUser, FaBars, FaTimes, } from "react-icons/fa";
 import { MdOutlineShoppingBag } from "react-icons/md";
 import { FaChevronDown, FaChevronRight } from 'react-icons/fa'
@@ -141,13 +141,13 @@ const NavBar = () => {
                     <div className='flex flex-col gap-55'>
                         <ul className='space-y-4'>
                             <li className="flex justify-between items-center cursor-pointer">
-                                <a href="/jalabiya">Perfume & Spray</a>
+                                <a href="/perfume&spray">Perfume & Spray</a>
                             </li>
                             <li className="flex justify-between items-center cursor-pointer">
-                                <a href="/agbada">Bags</a>
+                                <a href="/bags">Bags</a>
                             </li>
                             <li className="flex justify-between items-center cursor-pointer">
-                                <a href="/collections">Laundry Service</a>
+                                <a href="/laundry">Laundry Service</a>
                             </li>
                         </ul>
                         {/* <div className='flex flex-col gap-5'>
