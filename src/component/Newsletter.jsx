@@ -122,7 +122,7 @@ The FLIP Team`
         <input
           type="email"
           placeholder="Enter your email"
-          className="flex-grow w-[300px] px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-black bg-white"
+          className="flex-grow w-[300px] px-4 py-3 text-black border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-black bg-white"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           required
