@@ -76,14 +76,14 @@ The FLIP Team`
         throw new Error(subscribeResult.message);
       }
 
-      const welcomeEmail = await emailjs.send(
+       await emailjs.send(
         emailjsConfig.serviceId,
         emailjsConfig.templates.newsletterMessage,
         templateParams,
         emailjsConfig.publicKey
       );
 
-      const notification = await emailjs.send(
+       await emailjs.send(
         emailjsConfig.serviceId,
         emailjsConfig.templates.newsletterNotification,
         {
@@ -93,22 +93,34 @@ The FLIP Team`
         emailjsConfig.publicKey
       );
 
-      if (welcomeEmail.status === 200) {
-        setIsSubscribed(true);
-        toast.success(subscribeResult.message);
-        setEmail("");
-      }
+    //   if (welcomeEmail.status === 200) {
+    //     setIsSubscribed(true);
+    //     toast.success(subscribeResult.message);
+    //     setEmail("");
+    //   }
 
-      if (notification.status === 200) {
-        toast.info("FLIP has been notified.");
-      }
+    //   if (notification.status === 200) {
+    //     toast.info("FLIP has been notified.");
+    //   }
 
-    } catch (error) {
-      console.error("Subscription Error:", error);
-      toast.error(error.message || "Subscription failed. Please try again later.");
-    } finally {
-      setIsLoading(false);
-    }
+    // } catch (error) {
+    //   console.error("Subscription Error:", error);
+    //   toast.error(error.message || "Subscription failed. Please try again later.");
+    // } finally {
+    //   setIsLoading(false);
+    // }
+
+    setIsSubscribed(true);
+  setEmail("");
+  toast.success(subscribeResult.message || "Subscribed and emails sent!");
+  toast.info("13Juneventures has been notified.");
+
+} catch (error) {
+  console.error("Subscription Error:", error);
+  toast.error(error.message || "Subscription failed. Please try again later.");
+} finally {
+  setIsLoading(false);
+}
 
   };
 
