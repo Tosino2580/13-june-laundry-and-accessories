@@ -31,9 +31,14 @@ export default async function handler(req, res) {
 
     const data = await response.json();
 
+    console.log("Mailchimp Response:", data);
+
     if (!response.ok) {
-      return res.status(400).json({ error: data.detail });
-    }
+  if (data.title === "Member Exists") {
+    return res.status(200).json({ message: "Already subscribed" });
+  }
+  return res.status(400).json({ error: data.detail || "Mailchimp subscription failed" });
+}
 
     return res.status(200).json({ message: "Subscribed successfully!" });
 
