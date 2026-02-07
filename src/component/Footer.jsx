@@ -12,7 +12,7 @@ const Footer = () => {
 
     return (
         <div>
-            <div className="flex flex-col md:flex-row justify-between mt-10 py-10 px-5 md:px-10">
+            <div className="flex flex-col md:flex-row justify-between mt-10 py-10 px-5 md:px-10 text-white">
                 <div className="space-y-6">
                     <h1 className="text-4xl font-semibold">Let's get in touch</h1>
                     <p className="w-4/5">
