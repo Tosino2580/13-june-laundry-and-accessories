@@ -3,7 +3,7 @@ import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import emailjs from "emailjs-com";
 import { emailjsConfig } from "../config/email";
-import { subscribeToMailchimp } from "../api/subscribe";
+import subscribeToMailchimp from "../api/subscribe";
 
 const NewsletterCTA = () => {
   const [email, setEmail] = useState("");
