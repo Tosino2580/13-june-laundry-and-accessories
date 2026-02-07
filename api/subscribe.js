@@ -1,4 +1,4 @@
-import fetch from "node-fetch"; // only needed if Node <18
+// /api/subscribe.js
 import { Buffer } from "buffer";
 
 export default async function handler(req, res) {
@@ -14,6 +14,7 @@ export default async function handler(req, res) {
   const PREFIX = process.env.MAILCHIMP_PREFIX;
 
   if (!API_KEY || !LIST_ID || !PREFIX) {
+    console.error("Mailchimp env variables missing");
     return res.status(500).json({ error: "Mailchimp env variables not set" });
   }
 
@@ -38,12 +39,13 @@ export default async function handler(req, res) {
       if (data.title === "Member Exists") {
         return res.status(200).json({ message: "Already subscribed" });
       }
+      console.error("Mailchimp error:", data);
       return res.status(400).json({ error: data.detail || "Mailchimp subscription failed" });
     }
 
     return res.status(200).json({ message: "Subscribed successfully!" });
   } catch (err) {
-    console.error("Mailchimp API error:", err);
+    console.error("Mailchimp fetch failed:", err);
     return res.status(500).json({ error: "Server error" });
   }
 }

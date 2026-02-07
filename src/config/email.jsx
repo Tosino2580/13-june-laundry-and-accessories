@@ -1,11 +1,8 @@
-const config = {
-  serviceId: "service_9ugk9k9",
-  publicKey: "Ns_A8jp-0fJ_6oWGe",
+export const emailjsConfig = {
+  serviceId: import.meta.env.VITE_EMAILJS_SERVICE_ID,
+  publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
   templates: {
-    newsletterMessage: "template_pknty5j",
-    newsletterNotification: "template_69hov3n"
-  }
-
+    newsletterMessage: import.meta.env.VITE_EMAILJS_TEMPLATE_NEWSLETTER,
+    newsletterNotification: import.meta.env.VITE_EMAILJS_TEMPLATE_NOTIFICATION,
+  },
 };
-
-export const emailjsConfig = config;

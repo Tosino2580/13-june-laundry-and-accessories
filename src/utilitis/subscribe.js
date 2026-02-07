@@ -1,4 +1,4 @@
-/* eslint-disable no-unused-vars */
+// /utils/subscribe.js
 export async function subscribeToMailchimp(email) {
   try {
     const res = await fetch("/api/subscribe", {
@@ -14,8 +14,8 @@ export async function subscribeToMailchimp(email) {
     }
 
     return { success: true, message: data.message || "Subscribed successfully!" };
-
   } catch (err) {
+    console.error("Network error:", err);
     return { success: false, message: "Network error" };
   }
 }
