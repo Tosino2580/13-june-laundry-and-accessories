@@ -69,11 +69,11 @@ The FLIP Team`
     };
 
         try {
-      const mailchimp = await subscribeToMailchimp(email);
+      const subscribeResult = await subscribeToMailchimp(email);
 
 
-      if (!mailchimp.ok) {
-        throw new Error(mailchimp.data?.detail || 'Mailchimp subscription failed');
+      if (!subscribeResult.success) {
+        throw new Error(subscribeResult.message);
       }
 
       const welcomeEmail = await emailjs.send(
@@ -95,7 +95,7 @@ The FLIP Team`
 
       if (welcomeEmail.status === 200) {
         setIsSubscribed(true);
-        toast.success("Thank you for subscribing!");
+        toast.success(subscribeResult.message);
         setEmail("");
       }
 
