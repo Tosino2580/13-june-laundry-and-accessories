@@ -127,7 +127,7 @@ export const ProductData = [
         hoverImage: agbada9,
     },
     {
-        id: "Hand-bag",
+        id: "Hand-bag1",
         name: "",
         price: 30000,
        inStock: 4,
@@ -136,7 +136,7 @@ export const ProductData = [
         hoverImage: kaftan1,
     },
     {
-        id: "Hand-bag",
+        id: "Hand-bag2",
         name: "",
         price: 50000,
        inStock: 6,
@@ -145,7 +145,7 @@ export const ProductData = [
         hoverImage: kaftan2,
     },
     {
-        id: "Hand-bag",
+        id: "Hand-bag3",
         name: "",
         price: 40000,
        inStock: 4,
@@ -154,7 +154,7 @@ export const ProductData = [
         hoverImage: kaftan3,
     },
     {
-        id: "Hand-bag",
+        id: "Hand-bag4",
         name: "",
         price: 45000,
        inStock: 5,
@@ -163,7 +163,7 @@ export const ProductData = [
         hoverImage: kaftan4,
     },
     {
-        id: "Hand-bag",
+        id: "Hand-bag5",
         name: "",
         price: 40000,
        inStock: 3,
@@ -172,7 +172,7 @@ export const ProductData = [
         hoverImage: tshirt5,
     },
     {
-        id: "Hand-bag",
+        id: "Hand-bag6",
         name: "",
         price: 50000,
        inStock: 10,
@@ -181,7 +181,7 @@ export const ProductData = [
         hoverImage: tshirt6,
     },
     {
-        id: "Hand-bag",
+        id: "Hand-bag7",
         name: "",
         price: 45000,
        inStock: 8,
@@ -190,7 +190,7 @@ export const ProductData = [
         hoverImage: tshirt7,
     },
     {
-        id: "Hand-bag",
+        id: "Hand-bag8",
         name: "",
         price: 45000,
        inStock: 7,
