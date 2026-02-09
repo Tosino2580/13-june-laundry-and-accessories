@@ -37,13 +37,14 @@ export default async function handler(req, res) {
 
      console.log("MAILCHIMP RAW RESPONSE:", data);
 
-    if (!response.ok) {
-      if (data.title === "Member Exists") {
-        return res.status(200).json({ message: "Already subscribed" });
-      }
-      console.error("Mailchimp error:", data);
-      return res.status(400).json({ error: data.detail || "Mailchimp subscription failed" });
-    }
+    if (!res.ok) {
+  // If Mailchimp says "Member Exists", treat it as success
+  if (data.title === "Member Exists") {
+    return { success: true, message: "You're already subscribed!" };
+  }
+
+  return { success: false, message: data.detail || "Mailchimp subscription failed" };
+}
 
     return res.status(200).json({ message: "Subscribed successfully!" });
   } catch (err) {
