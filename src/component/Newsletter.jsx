@@ -40,7 +40,7 @@ const NewsletterCTA = () => {
       // 1️⃣ Subscribe to Mailchimp
       const subscribeResult = await subscribeToMailchimp(email);
 
-      if (!subscribeResult.success) {
+      if (!subscribeResult.success || subscribeResult.message === "Member Exists") {
         throw new Error(subscribeResult.message);
       }
 
