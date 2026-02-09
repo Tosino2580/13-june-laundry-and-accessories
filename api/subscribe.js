@@ -35,6 +35,8 @@ export default async function handler(req, res) {
 
     const data = await response.json();
 
+     console.log("MAILCHIMP RAW RESPONSE:", data);
+
     if (!response.ok) {
       if (data.title === "Member Exists") {
         return res.status(200).json({ message: "Already subscribed" });
