@@ -23,7 +23,7 @@ import image22 from "/src/assets/images/Bags/bags22.jpeg";
 
 export const agbadaDatas = [
   {
-    // id: "Historic-ozo-agbada",
+    id: "Historic-ozo-agbada",
     // name: "The Historic Ozo x NFL Agbada",
     price: 25000,
     inStock: 4,
@@ -31,7 +31,7 @@ export const agbadaDatas = [
     hoverImage: image1,
   },
   {
-    // id: "Macallan-agbada",
+    id: "Macallan-agbada",
     // name: "Macallan Reserve Agbada",
     price: 25000,
     inStock: 7,
@@ -39,7 +39,7 @@ export const agbadaDatas = [
     hoverImage: image2,
   },
   {
-    // id: "Onìńówọ-Olori-aso-oke-agbada",
+    id: "Onìńówọ-Olori-aso-oke-agbada",
     // name: "Onìńówọ & Olori Patched Aso-Oke Agbada",
     price: 45000,
     inStock: 3,
@@ -47,7 +47,7 @@ export const agbadaDatas = [
     hoverImage: image3,
   },
   {
-    // id: "Turquoise-Blue-agbada",
+    id: "Turquoise-Blue-agbada",
     // name: "Turquoise Blue Agbada Kaftan and Aso Oke Pant",
     price: 45000,
     inStock: 10,
@@ -55,7 +55,7 @@ export const agbadaDatas = [
     hoverImage: image4,
   },
   {
-    // id: "Lion-king-agbada",
+    id: "Lion-king-agbada18",
     // name: "Lion King Agbada, Aso Oke Pant and Cap Set",
     price: 50000,
     inStock: 7,
@@ -63,7 +63,7 @@ export const agbadaDatas = [
     hoverImage: image5,
   },
   {
-    // id: "Lion-king-agbada",
+    id: "Lion-king-agbada17",
     // name: "Lion King Agbada, Aso Oke Pant and Cap Set",
     price: 45000,
     inStock: 4,
@@ -71,7 +71,7 @@ export const agbadaDatas = [
     hoverImage: image6,
   },
   {
-    // id: "Lion-king-agbada",
+    id: "Lion-king-agbada16",
     // name: "Lion King Agbada, Aso Oke Pant and Cap Set",
     price: 45000,
     inStock: 4,
@@ -79,7 +79,7 @@ export const agbadaDatas = [
     hoverImage: image7,
   },
   {
-    // id: "Lion-king-agbada",
+    id: "Lion-king-agbada15",
     // name: "Lion King Agbada, Aso Oke Pant and Cap Set",
     price: 45000,
     inStock: 7,
@@ -87,7 +87,7 @@ export const agbadaDatas = [
     hoverImage: image8,
   },
   {
-    // id: "Lion-king-agbada",
+    id: "Lion-king-agbada14",
     // name: "Lion King Agbada, Aso Oke Pant and Cap Set",
     price: 45000,
     inStock: 2,
@@ -95,7 +95,7 @@ export const agbadaDatas = [
     hoverImage: image9,
   },
   {
-    // id: "Lion-king-agbada",
+    id: "Lion-king-agbada13",
     // name: "Lion King Agbada, Aso Oke Pant and Cap Set",
     price: 50000,
     inStock: 14,
@@ -103,7 +103,7 @@ export const agbadaDatas = [
     hoverImage: image10,
   },
   {
-    // id: "Lion-king-agbada",
+    id: "Lion-king-agbada12",
     // name: "Lion King Agbada, Aso Oke Pant and Cap Set",
     price: 15000,
     inStock: 11,
@@ -111,7 +111,7 @@ export const agbadaDatas = [
     hoverImage: image11,
   },
   {
-    // id: "Lion-king-agbada",
+    id: "Lion-king-agbada11",
     // name: "Lion King Agbada, Aso Oke Pant and Cap Set",
     price: 25000,
     inStock: 16,
@@ -119,7 +119,7 @@ export const agbadaDatas = [
     hoverImage: image12,
   },
   {
-    // id: "Lion-king-agbada",
+    id: "Lion-king-agbada10",
     // name: "Lion King Agbada, Aso Oke Pant and Cap Set",
     price: 50000,
     inStock: 16,
@@ -127,7 +127,7 @@ export const agbadaDatas = [
     hoverImage: image13,
   },
   {
-    // id: "Lion-king-agbada",
+    id: "Lion-king-agbada9",
     // name: "Lion King Agbada, Aso Oke Pant and Cap Set",
     price: 40000,
     inStock: 3,
@@ -135,7 +135,7 @@ export const agbadaDatas = [
     hoverImage: image14,
   },
   {
-    // id: "Lion-king-agbada",
+    id: "Lion-king-agbada8",
     // name: "Lion King Agbada, Aso Oke Pant and Cap Set",
     price: 30000,
     inStock: 19,
@@ -143,7 +143,7 @@ export const agbadaDatas = [
     hoverImage: image15,
   },
   {
-    // id: "Lion-king-agbada",
+    id: "Lion-king-agbada7",
     // name: "Lion King Agbada, Aso Oke Pant and Cap Set",
     price: 30000,
     inStock: 3,
@@ -151,7 +151,7 @@ export const agbadaDatas = [
     hoverImage: image16,
   },
   {
-    // id: "Lion-king-agbada",
+    id: "Lion-king-agbada6",
     // name: "Lion King Agbada, Aso Oke Pant and Cap Set",
     price: 30000,
     inStock: 5,
@@ -159,7 +159,7 @@ export const agbadaDatas = [
     hoverImage: image17,
   },
   {
-    // id: "Lion-king-agbada",
+    id: "Lion-king-agbada5",
     // name: "Lion King Agbada, Aso Oke Pant and Cap Set",
     price: 40000,
     inStock: 7,
@@ -167,7 +167,7 @@ export const agbadaDatas = [
     hoverImage: image18,
   },
   {
-    // id: "Lion-king-agbada",
+    id: "Lion-king-agbada4",
     // name: "Lion King Agbada, Aso Oke Pant and Cap Set",
     price: 40000,
     inStock: 12,
@@ -175,7 +175,7 @@ export const agbadaDatas = [
     hoverImage: image19,
   },
   {
-    // id: "Lion-king-agbada",
+    id: "Lion-king-agbada3",
     // name: "Lion King Agbada, Aso Oke Pant and Cap Set",
     price: 40000,
     inStock: 14,
@@ -183,7 +183,7 @@ export const agbadaDatas = [
     hoverImage: image20,
   },
   {
-    // id: "Lion-king-agbada",
+    id: "Lion-king-agbada2",
     // name: "Lion King Agbada, Aso Oke Pant and Cap Set",
     price: 45000,
     inStock: 17,
@@ -191,7 +191,7 @@ export const agbadaDatas = [
     hoverImage: image21,
   },
   {
-    // id: "Lion-king-agbada",
+    id: "Lion-king-agbada1",
     // name: "Lion King Agbada, Aso Oke Pant and Cap Set",
     price: 45000,
     inStock: 5,

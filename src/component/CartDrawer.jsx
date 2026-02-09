@@ -9,7 +9,7 @@ const CartDrawer = () => {
 
   const cartRef = useRef(null);
 
-  const phoneNumber = "2347042584760";
+  const phoneNumber = "2349025954337";
 
   const handleCheckout = () => {
   if (cartItems.length === 0) return;

@@ -52,7 +52,7 @@ const NavBar = () => {
                 <FaBars />
             </button>
             <div>
-                <Link to={'/'}><img src={Logo} alt="" className='w-18 h-18' /></Link>
+                <Link to={'/'}><img src={Logo} alt="" className='w-15 h-12 rounded-2xl' /></Link>
             </div>
             <div className='flex gap-5'>
                 <div className='hidden md:flex items-center gap-2'>
