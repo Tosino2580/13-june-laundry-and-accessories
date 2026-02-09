@@ -16,7 +16,7 @@ const Story = () => {
                 <div>
                     <img src={ShowRoom} alt="" className='rounded-lg h-[600px] w-[500px] md:w-[600px] md:h-[800px]' />
                 </div>
-                <a href="/collections">
+                <a href="/laundry">
                  <button className='text-white block md:hidden px-10 py-3 cursor-pointer rounded-4xl text-xl bg-blue-900'>Contact us</button>
                  </a>
             </div>
