@@ -28,23 +28,23 @@ function ProductDetails() {
   };
 
   const handleAddToCart = () => {
-    if (!selectedSize) {
-      toast.error("Please select a size!", {
-        duration: 3000,
-        style: {
-          border: '1px solid #facc15',
-          padding: '16px',
-          color: 'black',
-          fontWeight: 'bold',
-          backgroundColor: '#fef08a',
-        },
-        iconTheme: {
-          primary: '#facc15',
-          secondary: '#fff',
-        },
-      });
-      return;
-    }
+    // if (!selectedSize) {
+    //   toast.error("Please select a size!", {
+    //     duration: 3000,
+    //     style: {
+    //       border: '1px solid #facc15',
+    //       padding: '16px',
+    //       color: 'black',
+    //       fontWeight: 'bold',
+    //       backgroundColor: '#fef08a',
+    //     },
+    //     iconTheme: {
+    //       primary: '#facc15',
+    //       secondary: '#fff',
+    //     },
+    //   });
+    //   return;
+    // }
 
     addToCart(product, selectedSize, quantity);
     setShowCart(false); // Open the cart drawer

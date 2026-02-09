@@ -18,6 +18,7 @@ import CartDrawer from './component/CartDrawer';
 import { CartProvider } from './context/CartContext'; 
 import ProductList from './component/ProductList';
 import ProductDetails from './component/ProductDetails';
+import ScrollToTop from './component/ScrollToTop';
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
         <Toaster position="top-center" reverseOrder={false} />
           <NavBar/>
           <CartDrawer />
+          <ScrollToTop/>
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/laundry' element={<Collections />} />
